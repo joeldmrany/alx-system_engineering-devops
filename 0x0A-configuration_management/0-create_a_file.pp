@@ -5,3 +5,4 @@ file { '/tmp/school' :
   group   => 'www-data',
   mode    => '0774',
 }
+
