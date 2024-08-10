@@ -3,7 +3,7 @@
 # Only the part of the name after the first dash is displayed
 
 for file in *; do
-    if [[ -f "$file" && "$file" == *-* ]]; then
+    if [[ "$file" == *-* ]]; then
         echo "$file" | cut -d'-' -f2-
     fi
 done
