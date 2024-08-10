@@ -4,5 +4,5 @@ i=3
 while [ $i -eq 3 ]
 do
 	echo "To infinity and beyond"
-	sleep 2
+	sleep 9
 done
