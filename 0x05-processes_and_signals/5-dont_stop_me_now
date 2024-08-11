@@ -1,3 +1,7 @@
 #!/usr/bin/env bash
 # stop 4-to_... process
-kill -9 $(ps aux | grep '[4]-to_infinity_and_beyond' | awk '{print $2}')
+pids=$(ps aux | grep '[4]-to_infinity_and_beyond' | awk '{print $2}')
+for pid in $pids; do
+	kill -2 "$pid"
+	echo "Process $pid terminated."
+done
