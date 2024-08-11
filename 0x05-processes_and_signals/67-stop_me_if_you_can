@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# kill without using kill
+pkill -f highlander

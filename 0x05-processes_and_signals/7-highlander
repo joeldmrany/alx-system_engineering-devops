@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# script [don't try it at home]
+
+trap 'echo "I am invincible!!!"' 15
+i=0
+while [ $i -eq 0 ]; do
+    echo "to infinity and beyond"
+    sleep 2
+done
