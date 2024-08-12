@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# perfect script
+hostname -I | cut -d' ' -f1 ; hostname -i
