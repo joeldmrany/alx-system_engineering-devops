@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# listner script
+
+nc -l 98
