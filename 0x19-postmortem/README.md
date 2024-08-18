@@ -6,8 +6,6 @@
 <img src="https://raw.githubusercontent.com/joeldmrany/alx-system_engineering-devops/main/0x19-postmortem/image.gif" width=100% height=100% />
 </p>
 
-### Incident report for [504 error / Site Outage](https://github.com/joeldmrany/alx-system_engineering-devops/tree/master/0x17-web_stack_debugging_3)
-
 #### Summary
 
 The server fell down at midnight on August 15, 2024, causing a 504 error for anyone attempting to access a website. An explanation of the server's LAMP stack foundation.
